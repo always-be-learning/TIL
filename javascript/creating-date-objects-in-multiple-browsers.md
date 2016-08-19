@@ -22,11 +22,9 @@ Happily, I found the tiniest of fixes at StackOverflow: http://stackoverflow.com
   start = new Date(start_date);
   end = new Date(end_date);
 
-  // now, I swap in the slashes and _then_ make new objects:
-  start_date = start_date.replace(/-/g,'/');
-  end_date = end_date.replace(/-/g,'/');
-  start = new Date(start_date);
-  end = new Date(end_date);  
+  // now, I swap in the slashes while making the new objects:
+  start = new Date(start_date.replace(/-/g,'/'));
+  end = new Date(end_date.replace(/-/g,'/'));
 ```
 
 And now my UI shows actual dates instead of `Nan/Nan`. :tada:
