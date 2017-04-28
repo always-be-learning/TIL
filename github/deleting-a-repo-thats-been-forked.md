@@ -1,6 +1,6 @@
 # Deleting a repo that's been forked
 
-I was wondering today what would happen to a repo, `dotsara/peggy-carter`, that's a fork of another repo, `peggy-carter`.
+I was wondering today what would happen to a repo, `dotsara/peggy-carter`, if its source, `peggy-carter` were deleted.
 
 So I tried it!
 
