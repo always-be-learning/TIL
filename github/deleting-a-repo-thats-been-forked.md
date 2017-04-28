@@ -8,7 +8,11 @@ I mean, _sure_, [GitHub explains what happens](https://help.github.com/articles/
 
 1. In another GitHub account, I created a repo, `peggy-carter`, adding a second commit.
 2. From this GitHub account, I forked `peggy-carter` to `dotsara/peggy-carter`, then added a new commit
+
+   ![forked](peggy-carter.png)
 3. I went back to `peggy-carter` and deleted it.
 4. Came back to `dotsara/peggy-carter` to see fork-flag gone and renamed it `agent-carter` :sunglasses:
+
+   ![renamed](agent-carter.png)
 
 Sweet!
